@@ -1,0 +1,8 @@
+{
+  "logger": {
+    "file": "/var/log/cosmos-topten/application.log"
+  },
+  "stats": {
+    "prefix": "bbc.iplayer.cosmos_topten.live."
+  }
+}

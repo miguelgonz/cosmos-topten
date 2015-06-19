@@ -1,0 +1,49 @@
+{
+  "name": "cosmos-topten",
+  "version": "1.0.0",
+  "description": "Top Ten Records",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "NODE_ENV=dev node server.js",
+    "lint": "jshint .",
+    "coverage": "istanbul cover _mocha -- -R dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelgonz/cosmos-topten.git"
+  },
+  "author": "responsive-iplayer@lists.forge.bbc.co.uk",
+  "license": "BBC",
+  "bugs": {
+    "url": "https://github.com/miguelgonz/cosmos-topten/issues"
+  },
+  "homepage": "https://github.com/miguelgonz/cosmos-topten",
+  "devDependencies": {
+    "jshint": "^2.5.11",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2",
+    "istanbul": "^0.3.5"
+  },
+  "dependencies": {
+    "config": "^1.10.0",
+    "ibl-server": "git+ssh://git@github.com:BBC/ibl-server#v2.0.2",
+    "ibl-logger": "git+ssh://git@github.com:BBC/ibl-logger#v1.0.0",
+    "ibl-stats": "git+ssh://git@github.com:BBC/ibl-stats#v1.0.3"
+  },
+  "jshintConfig": {
+    "quotmark": "single",
+    "unused": true,
+    "undef": true,
+    "node": true,
+    "globals": {
+      "describe": false,
+      "it": false,
+      "before": false,
+      "beforeEach": false,
+      "after": false,
+      "afterEach": false
+    }
+  },
+  "private": true
+}

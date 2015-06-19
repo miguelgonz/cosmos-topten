@@ -1,0 +1,10 @@
+{
+  "logger": {
+    "level": "warn",
+    "file": "application.log"
+  },
+  "stats": {
+    "prefix": "bbc.iplayer.cosmos_topten.dev."
+  },
+  "version": "dev"
+}

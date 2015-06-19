@@ -1,0 +1,17 @@
+{
+  "name": "cosmos-topten",
+  "packaging": {
+    "type": "nodejs_service",
+    "requires": [
+      "nodejs",
+      "ibl-sysadmin"
+    ]
+  },
+  "handle": [
+    {
+      "path": "/",
+      "https": true,
+      "allow_dev_certs": true
+    }
+  ]
+}
