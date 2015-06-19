@@ -145,7 +145,7 @@
         "HealthCheck": {
           "HealthyThreshold": "3",
           "Interval": "15",
-          "Target": "HTTP:7080/status",
+          "Target": "HTTP:7080/v1/status",
           "Timeout": "10",
           "UnhealthyThreshold": "3"
         }
